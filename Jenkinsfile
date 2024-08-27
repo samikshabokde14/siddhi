@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	
 	parameters {
-  string defaultValue: 'DEV', name: 'ENVIRONMENT'
+  string defaultValue: 'QA', name: 'ENVIRONMENT'
 }
 
 
